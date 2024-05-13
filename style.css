@@ -1,0 +1,127 @@
+.banner{
+    display: flex;
+    justify-content: center;
+}
+.writing{
+    padding: 4vw;
+}
+.aboutcontent{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: left;
+}
+.aboutcontent>b{
+    font-size: larger;
+    margin: 2vw;
+}
+.aboutcontent>img{
+    align-self: center;
+      margin: 2vw;
+      height: 50vh;
+      width: 50vw;
+}
+.featurescontent{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: left;
+    margin: 5vh;
+}
+.featurescontent>img{
+    height: 50vh;
+    width: 50vw;
+    align-self: center;
+}
+.carousel-item >img{
+    padding-left: 20vw;
+    padding-right: 20vw;
+    height: 60vh;
+}
+.testcontent{
+    font-size: larger;
+    font-weight: bolder;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: left;
+    margin: 5vh;
+}
+.eventcontent{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: beige;
+}
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); 
+    grid-gap: 20px; 
+}
+
+
+.grid-item {
+    width: 100%;
+    padding-left: 25vh; 
+}
+
+.gallery{
+    background: linear-gradient(to bottom, #8A2BE2, #FFB6C1);}
+    .gallerycontent{
+        color: white;
+        padding: 10vh;
+    }
+
+    .card-header{
+        color: #8A2BE2;
+    }
+    
+    .regform{
+        padding: 10vh;
+        background: linear-gradient(to bottom, #4040dd, #D3D3D3);
+    }
+
+    .regform>h1{
+        color: white;
+    }
+
+    .prizes>span{
+        display: flex;
+        margin-left: 20vw;
+        margin-right: 20vw;
+        flex-direction: column;
+        align-self: center;
+    }
+ 
+
+/* Responsive styling */
+@media screen and (max-width: 768px) {
+    .grid-container {
+        grid-template-columns: 1fr; /* Single column for smaller screens */
+    }
+}
+
+/* CSS for the container of the home button */
+.home-button-container {
+    /* position: sticky; Set the position to sticky */
+    bottom: 20px; /* Adjust the distance from the bottom */
+     right: 20px;/* Adjust the distance from the right */
+    z-index: 999; /* Set a high z-index to ensure it appears on top of other elements */
+  }
+  
+  /* CSS for the home button */
+  .home-button {
+    background-color: black; /* Change the background color */
+    color: #fff; /* Change the text color */
+    border: none;
+    padding: 10px 20px; /* Adjust padding as needed */
+    border-radius: 10px; /* Add border radius for rounded corners */
+    cursor: pointer; /* Change cursor to pointer on hover */
+  }
+  
+  /* CSS for the home button hover effect */
+  .home-button:hover {
+    background-color: #0056b3; /* Change background color on hover */
+  }
+  
+  
